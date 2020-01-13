@@ -2,6 +2,7 @@
 #include <errno.h>
 #include <dirent.h>
 #include <stdio.h>
+#include <unistd.h>
 
 
 static int pci_get_kernel_driver_by_path(const char *filename, char *dri_name) {
